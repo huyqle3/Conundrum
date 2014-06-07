@@ -7,7 +7,7 @@
 //
 
 #import "LoginViewController.h"
-#import "Classes/ASIHTTPRequest.h"
+#import "ASIHTTPRequest.h"
 
 @interface LoginViewController ()
 
@@ -36,16 +36,16 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*- (IBAction)grabURL:(id)sender
+- (IBAction)grabURL:(id)sender
 {
     NSURL *url = [NSURL URLWithString:@"http://allseeing-i.com"];
     ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
     [request startSynchronous];
     NSError *error = [request error];
     if (!error) {
-        NSString *response = [request responseString];
+        //NSString *response = [request responseString];
     }
-}*/
+}
 
 /*
 #pragma mark - Navigation

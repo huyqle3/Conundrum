@@ -10,4 +10,9 @@
 
 @interface LoginViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *txtUrl;
+@property (strong, nonatomic) IBOutlet UITextView *txtOutput;
+
+- (IBAction)clickedRequestCall:(id)sender;
+
 @end

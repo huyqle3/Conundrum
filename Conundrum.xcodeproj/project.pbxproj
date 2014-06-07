@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781947B91943B444003B0DF4 /* HTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 781947B81943B444003B0DF4 /* HTTPRequest.m */; };
 		781FDDD3194350C600D9EC22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781FDDD2194350C600D9EC22 /* Foundation.framework */; };
 		781FDDD5194350C600D9EC22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781FDDD4194350C600D9EC22 /* CoreGraphics.framework */; };
 		781FDDD7194350C600D9EC22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781FDDD6194350C600D9EC22 /* UIKit.framework */; };
@@ -53,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		781947B71943B444003B0DF4 /* HTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRequest.h; sourceTree = "<group>"; };
+		781947B81943B444003B0DF4 /* HTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequest.m; sourceTree = "<group>"; };
 		781FDDCF194350C600D9EC22 /* Conundrum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conundrum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		781FDDD2194350C600D9EC22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		781FDDD4194350C600D9EC22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -183,6 +186,8 @@
 		781FDDD8194350C600D9EC22 /* Conundrum */ = {
 			isa = PBXGroup;
 			children = (
+				781947B71943B444003B0DF4 /* HTTPRequest.h */,
+				781947B81943B444003B0DF4 /* HTTPRequest.m */,
 				781FDDE1194350C600D9EC22 /* AppDelegate.h */,
 				781FDDE2194350C600D9EC22 /* AppDelegate.m */,
 				781FDE151943575100D9EC22 /* LoginViewController.h */,
@@ -349,6 +354,7 @@
 				781FDDDF194350C600D9EC22 /* main.m in Sources */,
 				784EF052194399EC004802DA /* ASIInputStream.m in Sources */,
 				781FDE171943575100D9EC22 /* LoginViewController.m in Sources */,
+				781947B91943B444003B0DF4 /* HTTPRequest.m in Sources */,
 				784EF053194399EC004802DA /* ASINetworkQueue.m in Sources */,
 				784EF04E194399EC004802DA /* ASIDataDecompressor.m in Sources */,
 				784EF05619439A00004802DA /* Reachability.m in Sources */,

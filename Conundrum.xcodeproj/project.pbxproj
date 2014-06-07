@@ -80,15 +80,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781FDE0A1943560100D9EC22 /* libz.dylib in Frameworks */,
+				781FDDD5194350C600D9EC22 /* CoreGraphics.framework in Frameworks */,
+				781FDE0C1943560C00D9EC22 /* MobileCoreServices.framework in Frameworks */,
 				781FDE141943563800D9EC22 /* SystemConfiguration.framework in Frameworks */,
+				781FDE06194355DC00D9EC22 /* CFNetwork.framework in Frameworks */,
 				781FDE121943562E00D9EC22 /* StoreKit.framework in Frameworks */,
 				781FDE101943562100D9EC22 /* Security.framework in Frameworks */,
 				781FDE0E1943561800D9EC22 /* QuartzCore.framework in Frameworks */,
-				781FDE0C1943560C00D9EC22 /* MobileCoreServices.framework in Frameworks */,
-				781FDE0A1943560100D9EC22 /* libz.dylib in Frameworks */,
 				781FDE08194355F200D9EC22 /* CoreLocation.framework in Frameworks */,
-				781FDDD5194350C600D9EC22 /* CoreGraphics.framework in Frameworks */,
-				781FDE06194355DC00D9EC22 /* CFNetwork.framework in Frameworks */,
 				781FDE04194355D200D9EC22 /* AudioToolbox.framework in Frameworks */,
 				781FDDD7194350C600D9EC22 /* UIKit.framework in Frameworks */,
 				781FDE02194355B200D9EC22 /* Parse.framework in Frameworks */,
@@ -497,6 +497,7 @@
 				781FDDFD194350C600D9EC22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		781FDDFE194350C600D9EC22 /* Build configuration list for PBXNativeTarget "ConundrumTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +506,7 @@
 				781FDE00194350C600D9EC22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

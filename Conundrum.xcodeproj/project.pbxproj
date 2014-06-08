@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		781947B91943B444003B0DF4 /* HTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 781947B81943B444003B0DF4 /* HTTPRequest.m */; };
+		781947BC1943F35A003B0DF4 /* GenerateD3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781947BB1943F35A003B0DF4 /* GenerateD3ViewController.m */; };
 		781FDDD3194350C600D9EC22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781FDDD2194350C600D9EC22 /* Foundation.framework */; };
 		781FDDD5194350C600D9EC22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781FDDD4194350C600D9EC22 /* CoreGraphics.framework */; };
 		781FDDD7194350C600D9EC22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781FDDD6194350C600D9EC22 /* UIKit.framework */; };
@@ -41,6 +42,13 @@
 		784EF052194399EC004802DA /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 784EF048194399EC004802DA /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		784EF053194399EC004802DA /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 784EF04A194399EC004802DA /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		784EF05619439A00004802DA /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 784EF05519439A00004802DA /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		785C0AFD1943FB5100B45F44 /* d3.html in Resources */ = {isa = PBXBuildFile; fileRef = 785C0AFC1943FB5100B45F44 /* d3.html */; };
+		78F92BCC19441B5A002C9DDB /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F92BCB19441B5A002C9DDB /* CoreImage.framework */; };
+		78F92BD019441CEA002C9DDB /* seagreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78F92BCF19441CEA002C9DDB /* seagreen.jpg */; };
+		78F92BD2194421C0002C9DDB /* books.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F92BD1194421C0002C9DDB /* books.png */; };
+		78F92BD41944228D002C9DDB /* card.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F92BD31944228D002C9DDB /* card.png */; };
+		78F92BD6194424A8002C9DDB /* amgine.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F92BD5194424A8002C9DDB /* amgine.png */; };
+		78F92BD81944313C002C9DDB /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F92BD71944313C002C9DDB /* star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +64,8 @@
 /* Begin PBXFileReference section */
 		781947B71943B444003B0DF4 /* HTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRequest.h; sourceTree = "<group>"; };
 		781947B81943B444003B0DF4 /* HTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequest.m; sourceTree = "<group>"; };
+		781947BA1943F35A003B0DF4 /* GenerateD3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerateD3ViewController.h; sourceTree = "<group>"; };
+		781947BB1943F35A003B0DF4 /* GenerateD3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateD3ViewController.m; sourceTree = "<group>"; };
 		781FDDCF194350C600D9EC22 /* Conundrum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conundrum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		781FDDD2194350C600D9EC22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		781FDDD4194350C600D9EC22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,6 +117,13 @@
 		784EF04B194399EC004802DA /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
 		784EF05419439A00004802DA /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		784EF05519439A00004802DA /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		785C0AFC1943FB5100B45F44 /* d3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = d3.html; sourceTree = "<group>"; };
+		78F92BCB19441B5A002C9DDB /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		78F92BCF19441CEA002C9DDB /* seagreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = seagreen.jpg; path = ../../seagreen.jpg; sourceTree = "<group>"; };
+		78F92BD1194421C0002C9DDB /* books.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = books.png; path = ../../books.png; sourceTree = "<group>"; };
+		78F92BD31944228D002C9DDB /* card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = card.png; path = ../../card.png; sourceTree = "<group>"; };
+		78F92BD5194424A8002C9DDB /* amgine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = amgine.png; path = ../../amgine.png; sourceTree = "<group>"; };
+		78F92BD71944313C002C9DDB /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = ../../star.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +131,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781FDE0E1943561800D9EC22 /* QuartzCore.framework in Frameworks */,
+				78F92BCC19441B5A002C9DDB /* CoreImage.framework in Frameworks */,
 				781FDE0A1943560100D9EC22 /* libz.dylib in Frameworks */,
 				781FDDD5194350C600D9EC22 /* CoreGraphics.framework in Frameworks */,
 				781FDE0C1943560C00D9EC22 /* MobileCoreServices.framework in Frameworks */,
@@ -121,7 +140,6 @@
 				781FDE06194355DC00D9EC22 /* CFNetwork.framework in Frameworks */,
 				781FDE121943562E00D9EC22 /* StoreKit.framework in Frameworks */,
 				781FDE101943562100D9EC22 /* Security.framework in Frameworks */,
-				781FDE0E1943561800D9EC22 /* QuartzCore.framework in Frameworks */,
 				781FDE08194355F200D9EC22 /* CoreLocation.framework in Frameworks */,
 				781FDE04194355D200D9EC22 /* AudioToolbox.framework in Frameworks */,
 				781FDDD7194350C600D9EC22 /* UIKit.framework in Frameworks */,
@@ -165,6 +183,7 @@
 		781FDDD1194350C600D9EC22 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78F92BCB19441B5A002C9DDB /* CoreImage.framework */,
 				781FDE131943563800D9EC22 /* SystemConfiguration.framework */,
 				781FDE111943562E00D9EC22 /* StoreKit.framework */,
 				781FDE0F1943562100D9EC22 /* Security.framework */,
@@ -186,6 +205,12 @@
 		781FDDD8194350C600D9EC22 /* Conundrum */ = {
 			isa = PBXGroup;
 			children = (
+				78F92BD71944313C002C9DDB /* star.png */,
+				78F92BD5194424A8002C9DDB /* amgine.png */,
+				78F92BD31944228D002C9DDB /* card.png */,
+				78F92BD1194421C0002C9DDB /* books.png */,
+				78F92BCF19441CEA002C9DDB /* seagreen.jpg */,
+				785C0AFC1943FB5100B45F44 /* d3.html */,
 				781947B71943B444003B0DF4 /* HTTPRequest.h */,
 				781947B81943B444003B0DF4 /* HTTPRequest.m */,
 				781FDDE1194350C600D9EC22 /* AppDelegate.h */,
@@ -195,6 +220,8 @@
 				781FDDE4194350C600D9EC22 /* Images.xcassets */,
 				781FDDD9194350C600D9EC22 /* Supporting Files */,
 				781FDE1C194358B800D9EC22 /* Conundrum.storyboard */,
+				781947BA1943F35A003B0DF4 /* GenerateD3ViewController.h */,
+				781947BB1943F35A003B0DF4 /* GenerateD3ViewController.m */,
 			);
 			path = Conundrum;
 			sourceTree = "<group>";
@@ -326,8 +353,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				781FDDDD194350C600D9EC22 /* InfoPlist.strings in Resources */,
+				785C0AFD1943FB5100B45F44 /* d3.html in Resources */,
+				78F92BD81944313C002C9DDB /* star.png in Resources */,
+				78F92BD2194421C0002C9DDB /* books.png in Resources */,
 				781FDDE5194350C600D9EC22 /* Images.xcassets in Resources */,
 				781FDE1D194358B800D9EC22 /* Conundrum.storyboard in Resources */,
+				78F92BD019441CEA002C9DDB /* seagreen.jpg in Resources */,
+				78F92BD6194424A8002C9DDB /* amgine.png in Resources */,
+				78F92BD41944228D002C9DDB /* card.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +389,7 @@
 				781FDE171943575100D9EC22 /* LoginViewController.m in Sources */,
 				781947B91943B444003B0DF4 /* HTTPRequest.m in Sources */,
 				784EF053194399EC004802DA /* ASINetworkQueue.m in Sources */,
+				781947BC1943F35A003B0DF4 /* GenerateD3ViewController.m in Sources */,
 				784EF04E194399EC004802DA /* ASIDataDecompressor.m in Sources */,
 				784EF05619439A00004802DA /* Reachability.m in Sources */,
 				784EF04F194399EC004802DA /* ASIDownloadCache.m in Sources */,

@@ -36,7 +36,13 @@
     [request setDownloadDestinationPath:@"/Users/hle2/Desktop/my_file.txt"]; */
 
     [super viewDidLoad];
+     self.txtUrl.delegate = self;
     // Do any additional setup after loading the view.
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return NO;
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <Parse/Parse.h>
+
 
 @implementation AppDelegate
 
@@ -19,10 +19,7 @@
     // self.window.backgroundColor = [UIColor whiteColor];
     // [self.window makeKeyAndVisible];
     
-    [Parse setApplicationId:@"ZaqBwvcnduCtOxxBRp9mzq0i7LX2JDTo0UgJJSJy"
-                  clientKey:@"SXfd4SDEepp8YpixBABHGNQGSJ49GBfIXfLhn6pG"];
-    
-    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+
     
     return YES;
 }

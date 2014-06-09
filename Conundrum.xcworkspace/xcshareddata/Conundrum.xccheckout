@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C495AEE2-C41C-44B5-A4AE-FCFFA113DFCB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Conundrum</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6355E6FB-6F19-4BB8-9428-796FF2B809CB</key>
+		<string>https://github.com/winstonchen/amgine</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Conundrum.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6355E6FB-6F19-4BB8-9428-796FF2B809CB</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/winstonchen/amgine</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6355E6FB-6F19-4BB8-9428-796FF2B809CB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6355E6FB-6F19-4BB8-9428-796FF2B809CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Conundrum</string>
+		</dict>
+	</array>
+</dict>
+</plist>
